@@ -1,78 +1,186 @@
-/*Ref: w3schools ,  css webpage layout*/
+
 style
 * {
   box-sizing: border-box;
 }
-        body{
-        background-image: linear-gradient(to right, rgb(132, 237, 174) , rgb(235, 235, 148));
-        }
-
-
-
-.header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
+/*Gradient of the webpage , visible on top and sides of webpage*/
+  body{
+   background-image: linear-gradient(to right, rgb(50, 59, 112) , rgb(16, 31, 63));
   }
+        
+/*header customization*/
+  .header {
+   background-color: #302e34;
+   padding: 20px;
+   text-align: center;
+   
+   }
 
-  
+/*Refrence w3schools, webpage layout section for topnav*/
   .topnav {
    overflow: hidden;
    background-color: #333;
+   
+   
    }
-
   .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 20px 135px;
+    padding: 20px 145px;
     text-decoration: none;
     font-size: 25px;
+    
   }
-
+/*Refrence w3schools, webpage layout section, topnav color change when mouse is hovering over*/
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: white;
   }
-  
+/*image under topnavigation bar specifications*/
+  .card {
+    background-image: url(waterfountain.jpg);
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+    height: 150px;
+    border: 10px solid black;
+  }
 
+/*Heading customizations*/
+  h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+  }
 
+  h2{
+    font-size: 40px;
+    color: white;
+  }
 
-h1{
+  h3{
+    font-size: 30px;
+    color: white;
+  }
+
+  h4{
+    padding-left: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+  }
+
+ h5{
+    font-size: 30px;
     text-align: center;
     color: black;
-}
-h2{
-    color: black;
-
-}
-
-h5{
-    font-size: 20px;
-}
-
-.card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
+    border: 4px solid black;
+    width: 120px;
+    background-color: rgb(99, 94, 94);
   }
 
-p{
+/*Paragraph customizations*/
+  p{
+    color:white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-}
-
-
-ul.a {
-    list-style-type: circle;
-    color: rgb(66, 138, 220);
-}
-
-
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
   }
+
+/*Container holding the 4 information boxes */
+  .MainContainer {
+    width: 1460px;
+    height: 1100px;
+    border: 10px solid #302e34;
+    padding: 10px;
+    background-color:  #434244;
+    float: left;
+  }
+/*Customization of first information box*/
+  .WelcomeContainer {
+    border-radius: 5px;
+    width: 550px;
+    height: 380px;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 20px;
+    background-color: #212023;
+    float: left;
+    margin-left: 3%;
+  }
+/*Customization of second information box*/
+  .WelcomeContainer-cot {
+    border-radius: 5px;
+    width: 550px;
+    height: 380px;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 20px;
+    background-color: #212023;
+    float: right;
+    margin-left: 3%;
+  }
+/*Customization of Third information box*/
+  .EventsContainer {
+    border-radius: 5px;
+    width: 550px;
+    height: 450px;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 20px;
+    background-color: #212023;
+    float: left;
+    margin-left: 3%;
+  }
+/*Customization of Third information box Image*/
+  .EventsImg img{
+    border-radius: 10px;
+  }
+/*Customization of Fourth information box*/
+  .DonateContainer {
+    border-radius: 5px;
+    width: 550px;
+    height: 450px;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 20px;
+    background-color: #212023;
+    float: right;
+  }
+/*Customization of Fourth information box Image*/
+  .DonateImg img{
+    border-radius: 10px;
+  }
+/*Customization of Contact Us section */
+.bottomcontainer {
+    width: 1460px;
+    height: 230px;
+    border:10px solid #302e34 ;
+    padding: 10px;
+    background-color:  #302e34;
+    float: left;
+  }
+/*Customization of Contact Us List*/
+  .list1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+/*Custimization of list bullet points*/
+  ul{
+    list-style-type: none;
+  }
+/*Link Details/look*/
+  a{
+    text-decoration: none;
+    color: black;
+  }
+/*button details*/
+  button{
+    border: none;
+    background-color: rgb(66, 66, 105);
+  }
+
+
