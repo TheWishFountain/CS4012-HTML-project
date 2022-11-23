@@ -1,0 +1,64 @@
+style
+* {
+  box-sizing: border-box;
+}
+/*Gradient of the webpage , visible on top and sides of webpage*/
+  body{
+   background-image: linear-gradient(to right, rgb(50, 59, 112) , rgb(16, 31, 63));
+  }
+        
+/*header customization*/
+  .header {
+   background-color: #302e34;
+   padding: 20px;
+   text-align: center;
+   
+   }
+
+/*Refrence w3schools, webpage layout section for topnav*/
+  .topnav {
+   overflow: hidden;
+   background-color: #333;
+   
+   
+   }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 145px;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+/*Refrence w3schools, webpage layout section, topnav color change when mouse is hovering over*/
+  .topnav a:hover {
+    background-color: #ddd;
+    color: white;
+  }
+/*image under topnavigation bar specifications*/
+  .card {
+    background-image: url(waterfountain.jpg);
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+    height: 150px;
+    border: 10px solid black;
+  }
+  /*Customization of Contact Us section */
+.bottomcontainer {
+    width: 1460px;
+    height: 230px;
+    border:10px solid #302e34 ;
+    padding: 10px;
+    background-color:  #302e34;
+    float: left;
+  }
+/*Customization of Contact Us List*/
+  .list1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
