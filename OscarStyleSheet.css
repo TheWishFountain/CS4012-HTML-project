@@ -1,112 +1,54 @@
-/*Ref: w3schools ,  css webpage layout*/
+
 style
 * {
   box-sizing: border-box;
 }
-        body{
-        background-image: linear-gradient(to right, rgb(50, 59, 112) , rgb(16, 31, 63));
-        }
+/*Gradient of the webpage , visible on top and sides of webpage*/
+  body{
+   background-image: linear-gradient(to right, rgb(50, 59, 112) , rgb(16, 31, 63));
+  }
 
-h1 {
-  color:#ddd;
-}
+ /*Top nav section highlighted depending on which page you are on*/
+  .topnav a.active {
+    background-color: rgb(10, 56, 91);
+    color: white;
+  } 
+  
+  .topnav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }    
+/*header customization*/
+  .header {
+   background-color: #418593;
+   padding: 1.85%;
+   text-align: center;
+   
+   }
 
-ul {
+/*Refrence w3schools, webpage layout section for topnav*/
+  .topnav {
+   overflow: hidden;
+   background-color: rgb(5, 29, 47);
+   
+/*boxes to navigate the different pages*/   
+   }
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.85% 145px;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+/*Refrence w3schools, webpage layout section, topnav color change when mouse is hovering over*/
+  .topnav a:hover {
+    background-color: rgb(13, 75, 123);
+    color: white;
+  }
 
-  position: -webkit-sticky; /* Safari */
-
-  position: sticky;
-
-  top: 0;
-
-  z-index: 1;
-
-}
-
-ul {
-
- 
-
-  list-style-type: none;
-
-  margin: 0;
-
-  padding: 0;
-
-  overflow: hidden;
-
-  background-color: #333;
-
-
-
-}
-
-
-
-li {
-
- 
-
-  float: left;
-
-}
-
-
-
-li a {
-
- 
-
-  display: inline-block;
-
-  color: whitesmoke;
-
-  text-align: center;
-
-  font-size: 17px;
-
-  padding: 25px 50px;
-
-  text-decoration: none;
-
-  background-color: #333;
-
-  font-family: Arial, Helvetica, sans-serif;
-
-  font-weight: 1000;  
-
-
-
-}
-
-
-
-/* Changes the link color to grey when you hover */
-
-li a:hover {
-
-  background-color: rgb(30, 29, 31);
-
- 
-
-}
-
-
-
-li {
-
-  border-right: 380px solid #333;
-
-}
-
-
-
-li:last-child {
-
-  border-right: none;
-
-}
- 
 .card {
   padding: 20px;
   margin-top: 0px;
@@ -121,6 +63,7 @@ li:last-child {
   border:none;
   border-radius: .5em;
   color: #ddd;
+  background-image: linear-gradient(to right, rgb(30, 75, 117) , rgb(49, 103, 129));
 }
 
 .Intro {
@@ -134,7 +77,6 @@ li:last-child {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  border-width: 1000px solid black;
 }
 
 .VolCon {
@@ -143,10 +85,10 @@ li:last-child {
   padding: 20px;
   background-color: #212023;
   margin-left: 12.5%;
+  background-color: #6e6488;
 }
 
 .FunImg {
-  border:3px solid black;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -160,10 +102,10 @@ li:last-child {
   background-color: #212023;
   margin-left: 12.5%;
   margin-top: 2.5%;
+  background-color:  #886486;
 }
 
 .DonImg {
-  border:3px solid black;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -177,11 +119,13 @@ li:last-child {
   background-color: #212023;
   margin-left: 12.5%;
   margin-top: 2.5%;
+  background-color:  #64886f;
 }
 
 
 h1{
     text-align: center;
+    color: white;
 }
 h2{
     color: rgb(228, 228, 228);
@@ -258,16 +202,24 @@ ul.a {
 }
 
 .Bottom {
-  background-color: #333;
+    background-image: linear-gradient(to right, rgb(30, 75, 117) , rgb(49, 103, 129));
   color: white;
   padding-left: 3%;
   padding-right: 4%;
   overflow:hidden;
 }
 
-.footer {
-    padding: 20px;
+/*Customization of Contact Us section */
+.bottomcontainer {
+    width: 1463px;
+    height: 230px;
+    border:10px solid rgb(5, 29, 47) ;
+    padding: 10px;
+    background-color:  rgb(5, 29, 47);
+  }
+/*Customization of Contact Us List*/
+  .list1{
+    font-size: 20px;
     text-align: center;
-    background: #302e34;
-    margin-top: 20px;
+    color: white;
   }
