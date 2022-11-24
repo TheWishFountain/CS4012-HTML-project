@@ -1,0 +1,273 @@
+/*Ref: w3schools ,  css webpage layout*/
+style
+* {
+  box-sizing: border-box;
+}
+        body{
+        background-image: linear-gradient(to right, rgb(50, 59, 112) , rgb(16, 31, 63));
+        }
+
+h1 {
+  color:#ddd;
+}
+
+ul {
+
+  position: -webkit-sticky; /* Safari */
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 1;
+
+}
+
+ul {
+
+ 
+
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  background-color: #333;
+
+
+
+}
+
+
+
+li {
+
+ 
+
+  float: left;
+
+}
+
+
+
+li a {
+
+ 
+
+  display: inline-block;
+
+  color: whitesmoke;
+
+  text-align: center;
+
+  font-size: 17px;
+
+  padding: 25px 50px;
+
+  text-decoration: none;
+
+  background-color: #333;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-weight: 1000;  
+
+
+
+}
+
+
+
+/* Changes the link color to grey when you hover */
+
+li a:hover {
+
+  background-color: rgb(30, 29, 31);
+
+ 
+
+}
+
+
+
+li {
+
+  border-right: 380px solid #333;
+
+}
+
+
+
+li:last-child {
+
+  border-right: none;
+
+}
+ 
+.card {
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: url(https://www.forcey.org/wp-content/uploads/2021/07/helping-hands-header-2.jpg);
+  background-size: cover;
+}
+
+.Main {
+  margin-top: 0%;
+  background-color: rgb(51, 49, 53);
+  border:none;
+  border-radius: .5em;
+  color: #ddd;
+}
+
+.Intro {
+  margin: 15px;
+  padding-top: 5px;
+  font-size: large;
+}
+
+.VolImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-width: 1000px solid black;
+}
+
+.VolCon {
+  width: 75%;
+  border: 10px solid black;
+  padding: 20px;
+  background-color: #212023;
+  margin-left: 12.5%;
+}
+
+.FunImg {
+  border:3px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.FunCon {
+  width: 75%;
+  border: 10px solid black;
+  padding: 20px;
+  background-color: #212023;
+  margin-left: 12.5%;
+  margin-top: 2.5%;
+}
+
+.DonImg {
+  border:3px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.DonCon {
+  width: 75%;
+  border: 10px solid black;
+  padding: 20px;
+  background-color: #212023;
+  margin-left: 12.5%;
+  margin-top: 2.5%;
+}
+
+
+h1{
+    text-align: center;
+}
+h2{
+    color: rgb(228, 228, 228);
+
+}
+
+h5{
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+ul.a {
+    list-style-type: circle;
+    color: rgb(66, 138, 220);
+}
+
+.BotHead{
+  text-align: center;
+}
+
+.FundRow {
+     border-bottom: 2px solid white;
+     padding-bottom: 1em;
+     margin-bottom: 1em;
+}
+
+.FundItem {
+  display: inline-block;
+  padding-right: .5em;
+}
+
+.FundDate {
+  font-weight:bold;
+  width: 5%;
+}
+
+.FundLocation {
+  width:9%;
+}
+
+.FundEx {
+  width:9%;
+}
+
+.FundBtn {
+  max-width:5%;
+  background-color: rgb(91, 129, 255);
+  border:none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.FundBtn:hover{
+  background-color: white;
+}
+
+.BakeImg {
+  float: right ;
+  position:relative;
+  transform: translate(-10%, -105%);
+  border: 10px solid black;
+}
+
+.HikeImg {
+  float: right ;
+  position:relative;
+  transform: translate(-10%, -105%);
+  border: 10px solid black;
+}
+
+.Bottom {
+  background-color: #333;
+  color: white;
+  padding-left: 3%;
+  padding-right: 4%;
+  overflow:hidden;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #302e34;
+    margin-top: 20px;
+  }
