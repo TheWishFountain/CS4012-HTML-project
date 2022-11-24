@@ -1,0 +1,236 @@
+/*Ref: w3schools ,  css webpage layout*/
+style
+* {
+  box-sizing: border-box;
+}
+/*Gradient of the webpage , visible on top and sides of webpage*/
+  body{
+   background-image: linear-gradient(to right, whitesmoke , rgb(32, 97, 238));
+  }
+  
+
+  .topnav a.active {
+    background-color: rgb(10, 56, 91);
+    color: white;
+  }
+
+  .topnav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+/*header customization*/
+  .header {
+   background-color: #418593;
+   padding: 20px;
+   text-align: center;
+   
+   }
+
+/*Refrence w3schools, webpage layout section for topnav*/
+  .topnav {
+   overflow: hidden;
+   background-color: rgb(5, 29, 47);
+   
+   
+   }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 125px;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+
+ 
+.card {
+  padding: 150px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: url(https://www.midtownmedical.com.au/wp-content/uploads/2019/09/Child-Health.jpg);
+  background-size: cover;
+}
+
+
+.Main {
+  margin-top: 0%;
+  background-color: rgb(5, 29, 47);
+  border:none;
+  border-radius: .5em;
+  color: #ddd;
+}
+
+.Intro {
+  margin: 15px;
+  padding-top: 5px;
+  font-size: large;
+}
+
+.containerSpace {
+width: 98%;
+background-color: rgb(5, 29, 47);
+height: 785px;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.ThankCon {
+  width: 500px;
+  height: 720px;
+  border: 10px solid #212023;
+  padding: 20px;
+  margin: 20px;
+  background-color: #6e6488;
+  float: left;
+}
+
+.ThankImg {
+  margin: 20%;
+}
+
+
+
+
+
+.VolCon {
+  width: 500px;
+  height: 705px;
+  border: 10px solid #212023;
+  padding: 20px;
+  margin: 20px;
+  background-color: #886486;
+  float: left;
+}
+
+
+
+
+
+.FunCon {
+  width: 500px;
+  height: 705px;
+  border: 10px solid #212023;
+  padding: 20px;
+  margin: 20px;
+  background-color: #64886f;
+  float: left;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(4, 1, 54);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+.container {
+  border-radius: 5px;
+  background-color: #555;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.h2{
+  text-align: center;
+}
+
+
+
+/*Customization of Contact Us section */
+.bottomcontainer {
+  width: 102.06%;
+  height: 250px;
+  background-color: rgb(32, 97, 238);
+  float: none;
+  position: relative;
+}
+/*Customization of Contact Us List*/
+.list1{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+/*Custimization of list bullet points*/
+ul{
+  list-style-type: none;
+}
+/*Link Details/look*/
+a{
+  text-decoration: none;
+  color: black;
+}
+/*button details*/
+button{
+  border: none;
+  background-color: rgb(36, 123, 194);
+}
