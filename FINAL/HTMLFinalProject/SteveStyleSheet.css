@@ -1,0 +1,198 @@
+/* Stephen Mc Neill Killeen */
+/* ID : 22359206 */
+
+style
+* {
+  box-sizing: border-box;
+}
+/*Gradient of the webpage , visible on top and sides of webpage*/
+  body{
+   background-image: linear-gradient(to right, rgb(50, 59, 112) , rgb(16, 31, 63));
+  }
+
+ /*Top nav section highlighted depending on which page you are on*/
+  .topnav a.active {
+    background-color: rgb(10, 56, 91);
+    color: white;
+  } 
+  
+  .topnav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }    
+/*header customization*/
+  .header {
+   background-color: #418593;
+   padding: 1.85%;
+   text-align: center;
+   
+   }
+
+/*Refrence w3schools, webpage layout section for topnav*/
+  .topnav {
+   overflow: hidden;
+   background-color: rgb(5, 29, 47);
+   
+/*boxes to navigate the different pages*/   
+   }
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 145px;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+/*Refrence w3schools, webpage layout section, topnav color change when mouse is hovering over*/
+  .topnav a:hover {
+    background-color: rgb(13, 75, 123);
+    color: white;
+  }
+/*image under topnavigation bar specifications*/
+  .card {
+    background-image: url(waterfountain.jpg);
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+    height: 150px;
+    border: 5px solid black;
+    
+  }
+
+/*Heading customizations*/
+  h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+  }
+
+  h2{
+    font-size: 40px;
+    color: white;
+  }
+
+  h3{
+    font-size: 30px;
+    color: white;
+  }
+
+  h4{
+    padding-left: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+  }
+
+ h5{
+    font-size: 50px;
+    text-align:left;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+/*Paragraph customizations*/
+  p{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+/*Container holding the 4 information boxes */
+  .MainContainer {
+    width: 98%;
+    height: 1100px;
+    border: 6px solid rgb(5, 29, 47);
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(30, 75, 117) , rgb(49, 103, 129));
+    float: left;
+  }
+/*Customization of first information box*/
+  .WelcomeContainer {
+    border-radius: 5px;
+    width: 550px;
+    height: 380px;
+    border: 5px solid black;
+    padding: 30px;
+    margin: 20px;
+    background-color: #6e6488;
+    float: left;
+    margin-left: 3%;
+  }
+/*Customization of second information box*/
+  .WelcomeContainer-cot {
+    border-radius: 5px;
+    width: 550px;
+    height: 380px;
+    border: 5px solid black;
+    padding: 30px;
+    margin: 20px;
+    background-color:  #886764;
+    float: right;
+    margin-left: 3%;
+  }
+/*Customization of Third information box*/
+  .EventsContainer {
+    border-radius: 5px;
+    width: 550px;
+    height: 450px;
+    border: 5px solid black;
+    padding: 30px;
+    margin: 20px;
+    background-color:  #886486;
+    float: left;
+    margin-left: 3%;
+  }
+/*Customization of Third information box Image*/
+  .EventsImg img{
+    border-radius: 10px;
+  }
+/*Customization of Fourth information box*/
+  .DonateContainer {
+    border-radius: 5px;
+    width: 550px;
+    height: 450px;
+    border: 5px solid black;
+    padding: 30px;
+    margin: 20px;
+    background-color:  #64886f;
+    float: right;
+  }
+/*Customization of Fourth information box Image*/
+  .DonateImg img{
+    border-radius: 10px;
+  }
+/*Customization of Contact Us section */
+.bottomcontainer {
+    width: 99%;
+    height: 230px;
+    border:6px solid rgb(5, 29, 47) ;
+    padding: 5px;
+    background-color:  rgb(5, 29, 47);
+    float: left;
+  }
+/*Customization of Contact Us List*/
+  .list1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+/*Custimization of list bullet points*/
+  ul{
+    list-style-type: none;
+  }
+/*Link Details/look*/
+  a{
+    text-decoration: none;
+    color: black;
+  }
+/*button details*/
+  button{
+    border: none;
+    background-color: rgb(218, 177, 182);
+  }
+  u{
+    color: rgb(0, 0, 0);
+  }

@@ -1,0 +1,233 @@
+/* Oscar Zhou */
+/* ID : 22338705 */
+
+style
+* {
+  box-sizing: border-box;
+}
+/*Gradient of the webpage , visible on top and sides of webpage*/
+  body{
+   background-image: linear-gradient(to right, rgb(50, 59, 112) , rgb(16, 31, 63));
+  }
+
+ /*Top nav section highlighted depending on which page you are on*/
+  .topnav a.active {
+    background-color: rgb(10, 56, 91);
+    color: white;
+  } 
+  
+  .topnav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }    
+/*header customization*/
+  .header {
+   background-color: #418593;
+   padding: 1.85%;
+   text-align: center;
+   
+   }
+
+/*Refrence w3schools, webpage layout section for topnav*/
+  .topnav {
+   overflow: hidden;
+   background-color: rgb(5, 29, 47);
+   
+/*boxes to navigate the different pages*/   
+   }
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 145px;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+/*Refrence w3schools, webpage layout section, topnav color change when mouse is hovering over*/
+  .topnav a:hover {
+    background-color: rgb(13, 75, 123);
+    color: white;
+  }
+
+.card {
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 150px;
+  background-image: url(https://www.forcey.org/wp-content/uploads/2021/07/helping-hands-header-2.jpg);
+  background-size: cover;
+}
+
+.Main {
+  margin-top: 0%;
+  background-color: rgb(51, 49, 53);
+  border:none;
+  border-radius: .5em;
+  color: #ddd;
+  background-image: linear-gradient(to right, rgb(30, 75, 117) , rgb(49, 103, 129));
+}
+
+.Intro {
+  margin: 15px;
+  padding-top: 5px;
+  font-size: large;
+}
+
+.VolImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.VolCon {
+  width: 75%;
+  border: 10px solid black;
+  padding: 20px;
+  background-color: #212023;
+  margin-left: 12.5%;
+  background-color: #6e6488;
+}
+
+.FunImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.FunCon {
+  width: 75%;
+  border: 10px solid black;
+  padding: 20px;
+  background-color: #212023;
+  margin-left: 12.5%;
+  margin-top: 2.5%;
+  background-color:  #886486;
+}
+
+.DonImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.DonCon {
+  width: 75%;
+  border: 10px solid black;
+  padding: 20px;
+  background-color: #212023;
+  margin-left: 12.5%;
+  margin-top: 2.5%;
+  background-color:  #64886f;
+}
+
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+h2{
+    color: rgb(228, 228, 228);
+
+}
+
+h5{
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+ul.a {
+    list-style-type: circle;
+    color: rgb(66, 138, 220);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.BotHead{
+  text-align: center;
+}
+
+.FundRow {
+     border-bottom: 2px solid white;
+     padding-bottom: 1em;
+     margin-bottom: 1em;
+}
+
+.FundItem {
+  display: inline-block;
+  padding-right: .5em;
+}
+
+.FundDate {
+  font-weight:bold;
+  width: 5%;
+}
+
+.FundLocation {
+  width:9%;
+}
+
+.FundEx {
+  width:9%;
+}
+
+.FundBtn {
+  max-width:5%;
+  background-color: rgb(91, 129, 255);
+  border:none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.FundBtn:hover{
+  background-color: white;
+}
+
+.BakeImg {
+  float: right ;
+  position:relative;
+  transform: translate(-10%, -105%);
+  border: 10px solid black;
+}
+
+.HikeImg {
+  float: right ;
+  position:relative;
+  transform: translate(-10%, -105%);
+  border: 10px solid black;
+}
+
+.Bottom {
+    background-image: linear-gradient(to right, rgb(30, 75, 117) , rgb(49, 103, 129));
+  color: white;
+  padding-left: 3%;
+  padding-right: 4%;
+  overflow:hidden;
+}
+
+/*Customization of Contact Us section */
+.bottomcontainer {
+    width: 1463px;
+    height: 230px;
+    border:10px solid rgb(5, 29, 47) ;
+    padding: 10px;
+    background-color:  rgb(5, 29, 47);
+  }
+/*Customization of Contact Us List*/
+  .list1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }

@@ -1,0 +1,226 @@
+/* Karthik Santhosh Madhav */
+/* ID : 22350527 */
+
+style
+* {
+  box-sizing: border-box;
+}
+/*Gradient of the webpage , visible on top and sides of webpage*/
+  body{
+   background-image: linear-gradient(to right, rgb(50, 59, 112) , rgb(16, 31, 63));
+  }
+
+ /*Highlights the box of the page you are on*/
+ .topnav a.active {
+  background-color: rgb(10, 56, 91);
+  color: white;
+ } 
+
+ .topnav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+ }
+        
+/*header customization*/
+  .header {
+   background-color: #418593;
+   padding: 1.85%;
+   text-align: center;
+   
+   }
+
+/*Refrence w3schools, webpage layout section for topnav*/
+  .topnav {
+   overflow: hidden;
+   background-color: rgb(5, 29, 47);
+   
+   
+   }
+/*Boxes to navigate the different pages*/   
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 145px;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+/*Refrence w3schools, webpage layout section, topnav color change when mouse is hovering over*/
+  .topnav a:hover {
+    background-color: rgb(182, 178, 178);
+    color: white;
+  }
+/*image under topnavigation bar specifications*/
+  .card {
+    background-image: url(ColourfulBanner);
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+    height: 150px;
+    border: 5px solid black;
+  }
+
+
+/*Title*/
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+  }
+/*Welcome In Banner*/
+  h5{
+    font-size: 50px;
+    text-align:left;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  /*Paragraphs*/
+  p{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  h3{
+    font-size: 30px;
+    color: white;
+  }
+
+
+
+/*Main Container*/
+  .MainContainer {
+    width: 98%;
+    height: 1500;
+    border: 5px solid rgb(5, 29, 47);
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(67, 122, 174), rgb(106, 163, 192));
+    float: left;
+  }
+/*Container 1*/
+  .Container1 {
+    border-radius: 5px;
+    width: 550px;
+    height: 530px;
+    border: 5px solid black;
+    padding: 30px;
+    margin: 20px;
+    background-color: #624da9;
+    float: left;
+    margin-left: 3%;
+  }
+/*Container 2*/
+.Container2 {
+  border-radius: 5px;
+  width: 550px;
+  height: 530px;
+  border: 5px solid black;
+  padding: 30px;
+  margin: 20px;
+  background-color:  #aa534b;
+  float: right;
+  margin-left: 3%;
+}
+/*Container 3*/
+.Container3 {
+  border-radius: 5px;
+  width: 550px;
+  height: 550px;
+  border: 5px solid black;
+  padding: 30px;
+  margin: 20px;
+  background-color:  #539847;
+  float: left;
+  margin-left: 3%;
+}
+
+button {
+  background-color: lightblue;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/*Container 4*/
+.Container4 {
+  border-radius: 5px;
+  width: 550px;
+  height: 550px;
+  border: 5px solid black;
+  padding: 30px;
+  margin: 20px;
+  background-color:  #a2a855;
+  float: right;
+  margin-left: 3%;
+}
+/*Container 4 image*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+/*Container 5*/
+.Container5 {
+  border-radius: 5px;
+  width: 550px;
+  height: 550px;
+  border: 5px solid black;
+  padding: 30px;
+  margin: 20px;
+  background-color:  #5dc976;
+  float:left;
+  margin-left: 3%;
+}
+/*Container 5 image*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+/*Container 6*/
+.Container6 {
+  border-radius: 5px;
+  width: 550px;
+  height: 550px;
+  border: 5px solid black;
+  padding: 30px;
+  margin: 20px;
+  background-color:  #6fd1e4;
+  float:right;
+  margin-left: 3%;
+}
+/*Container 6 image*/
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+  /*Customization of Contact Us section */
+.bottomcontainer {
+    width: 97%;
+    height: 230px;
+    border:10px solid rgb(5, 29, 47);
+    padding: 10px;
+    background-color:  rgb(5, 29, 47);
+    float: left;
+  }
+/*Customization of Contact Us List*/
+  .list1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  /*Extras*/
+ul {
+  list-style-type: none;
+}
